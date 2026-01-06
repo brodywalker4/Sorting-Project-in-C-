@@ -14,19 +14,6 @@ Requirements
 
 A C++ compiler supporting C++11 or later, OpenMP support for parallel algorithms if enabled, and a system capable of running multithreaded programs.
 
-Compilation
-Standard Compilation
-g++ program2.cpp -o sorting
-
-Compilation with Parallel Support (OpenMP)
-g++ program2.cpp -o sorting -fopenmp
-
-Running the Program
-./sorting
-
-
-The program may generate random input data, sort predefined or user-provided arrays, display execution times, and output sorted results depending on the implementation.
-
 Output
 
 Sorted arrays, execution time for each sorting algorithm, and performance comparisons between sequential and parallel approaches.
