@@ -4,37 +4,15 @@ This project demonstrates and compares multiple sorting algorithms implemented i
 
 Algorithms Included
 
-The program implements the following sorting algorithms:
-
-Bubble Sort (Sequential)
-
-Parallel Bubble Sort
-
-Merge Sort (Sequential)
-
-Parallel Merge Sort
-
-Library Sort (using the C++ Standard Library sorting function)
+Bubble Sort (Sequential), Parallel Bubble Sort, Merge Sort (Sequential), Parallel Merge Sort, and the C++ Standard Library Sort algorithm.
 
 Features
 
-Compares traditional sorting algorithms with their parallel counterparts
-
-Demonstrates the impact of parallelism on sorting performance
-
-Uses standard C++ libraries and optional parallel constructs
-
-Works with arrays or vectors of integers
+Sequential and parallel sorting implementations, performance comparison between algorithms, demonstration of parallel programming concepts, use of standard C++ libraries, and support for sorting arrays or vectors of integers.
 
 Requirements
 
-C++ compiler that supports C++11 or later
-
-For parallel versions:
-
-OpenMP support (if used)
-
-Compile with appropriate flags (see below)
+A C++ compiler supporting C++11 or later, OpenMP support for parallel algorithms if enabled, and a system capable of running multithreaded programs.
 
 Compilation
 Standard Compilation
@@ -43,53 +21,24 @@ g++ program2.cpp -o sorting
 Compilation with Parallel Support (OpenMP)
 g++ program2.cpp -o sorting -fopenmp
 
-
-Make sure your compiler supports OpenMP if you are using the parallel algorithms.
-
 Running the Program
 ./sorting
 
 
-Depending on the implementation, the program may:
-
-Generate random data
-
-Sort predefined arrays
-
-Display timing results for each algorithm
-
-Print sorted output to the console
+The program may generate random input data, sort predefined or user-provided arrays, display execution times, and output sorted results depending on the implementation.
 
 Output
 
-The program typically outputs:
-
-The sorted array(s)
-
-Execution time for each sorting algorithm
-
-A comparison between sequential and parallel performance
+Sorted arrays, execution time for each sorting algorithm, and performance comparisons between sequential and parallel approaches.
 
 Purpose
 
-This project is useful for:
-
-Learning how classic sorting algorithms work
-
-Understanding parallel algorithm design
-
-Comparing algorithm efficiency
-
-Studying the performance tradeoffs between sequential and parallel execution
+Learning how classic sorting algorithms work, understanding parallel algorithm design, analyzing performance differences, and comparing optimized library implementations with manual algorithms.
 
 Notes
 
-Parallel Bubble Sort is included for comparison purposes, even though it is not efficient in practice.
-
-Merge Sort is generally faster and more scalable, especially in parallel implementations.
-
-Library sort uses highly optimized algorithms provided by the C++ Standard Library.
+Parallel Bubble Sort is included for demonstration purposes despite its inefficiency, Merge Sort generally performs better and scales well with parallel execution, and the library sort uses highly optimized algorithms provided by the C++ Standard Library.
 
 License
 
-This project is provided for educational use. You may modify and reuse it freely.
+Provided for educational use, free to modify and reuse.
